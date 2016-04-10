@@ -1,6 +1,7 @@
 # ensemble2genename
 
-This is combined bash/R script that will use a file with **human** ENSEMBLE geneIDs in **a first column** of a file and append a gene name to it, while keeping the structure of the file from  other columns.
+This is combined bash/R script that will use a file with **human** ENSEMBLE geneIDs in **a first column** of a file and append a gene name to it, while keeping the structure of the file from  other columns. Ensemble2genename sets its host to ensembl.org thus it could be especially useful when biomaRt site is down.
+
 
 # Dependencies
 Rscript, BiomaRt
