@@ -1,15 +1,15 @@
-# ensemble2genename
+# ensembl2genename
 
-This is combined bash/R script that will use a file with **human** ENSEMBLE geneIDs in **a first column** of a file and append a gene name to it, while keeping the structure of the file from  other columns. Ensemble2genename sets its host to ensembl.org thus it could be especially useful when biomaRt site is down.
+This is combined bash/R script that will use a file with **human** ENSEMBL geneIDs in **a first column** of a file and append a gene name to it, while keeping the structure of the file from  other columns. Ensembl2genename sets its host to ensembl.org thus it could be especially useful when biomaRt site is down.
 
 
 # Dependencies
 Rscript, BiomaRt
 
 # Usage
-chmod 775 ensemble2genename.sh
+chmod 775 ensembl2genename.sh
 
-./ensemble2genename.sh file.txt
+./ensembl2genename.sh file.txt
 
 # Example
 
@@ -26,8 +26,8 @@ ENSG00000198763 chrM    4470    5511    +       1042    15914
 ENSG00000210117 chrM    5512    5579    +       68      0
 ENSG00000210127 chrM    5587    5655    -       69      0
 
-chmod 775 ensemble2genename.sh
-./ensemble2genename.sh file.txt
+chmod 775 ensembl2genename.sh
+./ensembl2genename.sh file.txt
 
 
 head file.txt.genename
